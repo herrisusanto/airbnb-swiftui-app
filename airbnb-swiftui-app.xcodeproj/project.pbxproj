@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF1D3EE2B56EE4300EFB009 /* airbnb_swiftui_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3ED2B56EE4300EFB009 /* airbnb_swiftui_appApp.swift */; };
+		0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */; };
 		0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */; };
 		0FF1D3F22B56EE4500EFB009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */; };
 		0FF1D3F52B56EE4500EFB009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1D3F42B56EE4500EFB009 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		0FF1D3EA2B56EE4300EFB009 /* airbnb-swiftui-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airbnb-swiftui-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FF1D3ED2B56EE4300EFB009 /* airbnb_swiftui_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airbnb_swiftui_appApp.swift; sourceTree = "<group>"; };
+		0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnbApp.swift; sourceTree = "<group>"; };
 		0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF1D3F42B56EE4500EFB009 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		0FF1D3EC2B56EE4300EFB009 /* airbnb-swiftui-app */ = {
 			isa = PBXGroup;
 			children = (
-				0FF1D3ED2B56EE4300EFB009 /* airbnb_swiftui_appApp.swift */,
+				0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */,
 				0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */,
 				0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */,
 				0FF1D3F32B56EE4500EFB009 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */,
-				0FF1D3EE2B56EE4300EFB009 /* airbnb_swiftui_appApp.swift in Sources */,
+				0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

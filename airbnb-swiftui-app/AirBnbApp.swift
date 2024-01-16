@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct airbnb_swiftui_appApp: App {
+struct AirBnbApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
