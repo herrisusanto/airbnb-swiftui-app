@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct ListingItemView: View {
+    
+    var images = [
+        "listing-1",
+        "listing-2",
+        "listing-3",
+        "listing-4",
+        "listing-5",
+        "listing-6",
+        "listing-7",
+        "listing-8"
+    ]
+    
     var body: some View {
         VStack(spacing: 8) {
-            Rectangle()
-                .frame(height: 320)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+            TabView {
+                ForEach(images, id:\.self){ image in
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                }
+            }
+            .frame(height: 320)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .tabViewStyle(.page)
             HStack(alignment: .top) {
                 VStack(alignment: .leading) {
                     Text("Miami, Florida")
