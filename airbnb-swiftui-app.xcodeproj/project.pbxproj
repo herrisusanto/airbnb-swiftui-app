@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0C1D172B57A219002F7B9A /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D162B57A219002F7B9A /* ExploreView.swift */; };
+		0F0C1D1B2B57A33D002F7B9A /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */; };
 		0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */; };
 		0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */; };
 		0FF1D3F22B56EE4500EFB009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0C1D162B57A219002F7B9A /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 		0FF1D3EA2B56EE4300EFB009 /* airbnb-swiftui-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airbnb-swiftui-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnbApp.swift; sourceTree = "<group>"; };
 		0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0C1D072B57A068002F7B9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0F0C1D082B57A06E002F7B9A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D0C2B57A125002F7B9A /* Explore */,
+				0F0C1D112B57A144002F7B9A /* Listings */,
+				0F0C1D0E2B57A12E002F7B9A /* MapView */,
+				0F0C1D0F2B57A136002F7B9A /* Profile */,
+				0F0C1D102B57A13A002F7B9A /* Root */,
+				0F0C1D122B57A14D002F7B9A /* TabBar */,
+				0F0C1D132B57A1B0002F7B9A /* Wishlists */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0F0C1D092B57A073002F7B9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F0C1D0A2B57A0C0002F7B9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F0C1D0B2B57A0CC002F7B9A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0F0C1D0C2B57A125002F7B9A /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D152B57A1F9002F7B9A /* ViewModel */,
+				0F0C1D142B57A1F4002F7B9A /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		0F0C1D0E2B57A12E002F7B9A /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		0F0C1D0F2B57A136002F7B9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0F0C1D102B57A13A002F7B9A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		0F0C1D112B57A144002F7B9A /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D192B57A329002F7B9A /* ViewModel */,
+				0F0C1D182B57A323002F7B9A /* View */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		0F0C1D122B57A14D002F7B9A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0F0C1D132B57A1B0002F7B9A /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		0F0C1D142B57A1F4002F7B9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D162B57A219002F7B9A /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F0C1D152B57A1F9002F7B9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F0C1D182B57A323002F7B9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F0C1D192B57A329002F7B9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0FF1D3E12B56EE4300EFB009 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +181,13 @@
 		0FF1D3EC2B56EE4300EFB009 /* airbnb-swiftui-app */ = {
 			isa = PBXGroup;
 			children = (
-				0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */,
+				0F0C1D072B57A068002F7B9A /* App */,
+				0F0C1D082B57A06E002F7B9A /* Core */,
+				0F0C1D092B57A073002F7B9A /* Extensions */,
+				0F0C1D0A2B57A0C0002F7B9A /* Models */,
 				0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */,
 				0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */,
+				0F0C1D0B2B57A0CC002F7B9A /* Utils */,
 				0FF1D3F32B56EE4500EFB009 /* Preview Content */,
 			);
 			path = "airbnb-swiftui-app";
@@ -137,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0C1D1B2B57A33D002F7B9A /* ListingItemView.swift in Sources */,
 				0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */,
+				0F0C1D172B57A219002F7B9A /* ExploreView.swift in Sources */,
 				0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
