@@ -15,12 +15,18 @@ struct ExploreView: View {
                 ScrollView {
                     LazyVStack(spacing: 32) {
                         ForEach(0...20, id: \.self){ listing in
-                            ListingItemView()
-                                .frame(height: 400)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                            NavigationLink(value: listing){
+                                ListingItemView()
+                                    .frame(height: 400)
+                                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                            }
                         }
-                    } 
+                    }
                     .padding()
+                }
+                .navigationDestination(for: Int.self) { listing in
+                    ListingDetailView()
+                        .navigationBarBackButtonHidden()
                 }
             }
         }

@@ -10,6 +10,8 @@
 		0F0C1D172B57A219002F7B9A /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D162B57A219002F7B9A /* ExploreView.swift */; };
 		0F0C1D1B2B57A33D002F7B9A /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */; };
 		0F0C1D1D2B57B2FB002F7B9A /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D1C2B57B2FB002F7B9A /* SearchAndFilterBar.swift */; };
+		0F0C1D1F2B57CFCA002F7B9A /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D1E2B57CFCA002F7B9A /* ListingDetailView.swift */; };
+		0F0C1D222B57D043002F7B9A /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C1D212B57D043002F7B9A /* ListingImageCarouselView.swift */; };
 		0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */; };
 		0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */; };
 		0FF1D3F22B56EE4500EFB009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1D3F12B56EE4500EFB009 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		0F0C1D162B57A219002F7B9A /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 		0F0C1D1C2B57B2FB002F7B9A /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		0F0C1D1E2B57CFCA002F7B9A /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		0F0C1D212B57D043002F7B9A /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		0FF1D3EA2B56EE4300EFB009 /* airbnb-swiftui-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airbnb-swiftui-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF1D3ED2B56EE4300EFB009 /* AirBnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnbApp.swift; sourceTree = "<group>"; };
 		0FF1D3EF2B56EE4300EFB009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 		0F0C1D082B57A06E002F7B9A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F0C1D202B57D023002F7B9A /* Components */,
 				0F0C1D0C2B57A125002F7B9A /* Explore */,
 				0F0C1D112B57A144002F7B9A /* Listings */,
 				0F0C1D0E2B57A12E002F7B9A /* MapView */,
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0F0C1D1A2B57A33D002F7B9A /* ListingItemView.swift */,
+				0F0C1D1E2B57CFCA002F7B9A /* ListingDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +169,14 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F0C1D202B57D023002F7B9A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C1D212B57D043002F7B9A /* ListingImageCarouselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		0FF1D3E12B56EE4300EFB009 = {
@@ -274,10 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0C1D222B57D043002F7B9A /* ListingImageCarouselView.swift in Sources */,
 				0F0C1D1B2B57A33D002F7B9A /* ListingItemView.swift in Sources */,
 				0FF1D3F02B56EE4300EFB009 /* ContentView.swift in Sources */,
 				0F0C1D172B57A219002F7B9A /* ExploreView.swift in Sources */,
 				0F0C1D1D2B57B2FB002F7B9A /* SearchAndFilterBar.swift in Sources */,
+				0F0C1D1F2B57CFCA002F7B9A /* ListingDetailView.swift in Sources */,
 				0FF1D3EE2B56EE4300EFB009 /* AirBnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
